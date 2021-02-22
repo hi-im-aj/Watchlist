@@ -1,8 +1,8 @@
 import React, { Fragment } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import Home from "./components/pages/Home";
-import NotFound from "./components/pages/NotFound";
+import Home from "./views/Home";
+import NotFound from "./views/NotFound";
 
 const App = () => {
   return (

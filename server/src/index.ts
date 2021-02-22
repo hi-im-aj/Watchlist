@@ -2,7 +2,7 @@ import express, { Application } from "express";
 import dotenv from "dotenv";
 import path from "path";
 
-dotenv.config({ path: "../../config/config.env" });
+dotenv.config({ path: "../../config/.env" });
 
 const app: Application = express();
 
